@@ -1,0 +1,70 @@
+body {
+    background: grey;
+}
+
+.heading {
+    padding: 10px;
+    background: #000;
+    color: greenyellow;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+input[type="file"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+}
+
+
+.input-form {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.input-form button {
+    background: greenyellow;
+    color: grey;
+    width: 100px;
+    height: 100px;
+    font-family:fantasy;
+    letter-spacing: 3px;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+    border: 0;
+    text-transform :uppercase;
+    text-shadow: 1px 1px 2px black;
+    font-size: larger;
+}
+
+.input-form button:hover {
+    box-shadow: 6px 6px 5px black;
+}
+
+#hidden-button{
+    background: greenyellow;
+    color: grey;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    /* font-weight: bolder; */
+    margin: 0px auto;
+    border-radius: 50%;
+    display: none;
+    box-shadow: 4px 4px black;
+    border: 0;
+}
